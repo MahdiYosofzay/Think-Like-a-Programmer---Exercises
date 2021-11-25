@@ -1,3 +1,20 @@
+/*
+ *   Exercise 2-3
+ *
+ *   Using only single-character output statements that output a hash mark,
+ *   a space, or an end-of-line symbol, write a program that outputs the
+ *   following shape:
+ *
+ *   #            #
+ *    ##        ##
+ *     ###    ###
+ *      ########
+ *      ########
+ *     ###    ###
+ *    ##        ##
+ *   #            #
+ */
+
 let shape = '';
 
 for (let row = 1; row <= 4; row++) {
